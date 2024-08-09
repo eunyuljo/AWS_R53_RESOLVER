@@ -1,0 +1,19 @@
+# Terraform 상태 파일
+*.tfstate
+*.tfstate.*
+
+# Terraform 크래시 로그
+crash.log
+
+# Terraform 계획 출력 파일
+*.tfplan
+
+# Terraform 백업 파일
+*.backup
+
+# .terraform 디렉토리 (모듈 및 플러그인 캐시)
+.terraform/
+
+# .terraform.lock.hcl 파일 (플러그인 버전 고정 파일)
+.terraform.lock.hcl
+
